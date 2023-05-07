@@ -157,7 +157,6 @@ deixe esse terminal executando o back-end e abra um novo terminal
 ``` 
 npm run dev
 ```
-Por questões técnicas, o frontend para teste e experiência está no seguinte link do Vercel: 
 ### Após alguns segundos, o projeto estará rodando em http://localhost:3000/
 
 # Modelo preditivo de classificação
