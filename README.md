@@ -87,14 +87,16 @@ Ferramenta para teste do smart contract.
 
 #### Na pasta raiz Backend, execute o comando abaixo para instalar as dependências do projeto:
 
-``` npm i
+``` 
+npm i
 ```
 
 ### Front
 
 #### Na pasta raiz Front, execute o comando abaixo para instalar as dependências do projeto:
 
-``` npm i
+``` 
+npm i
 ```
 
 ## Rodando o projeto
@@ -143,7 +145,8 @@ Para testar as transações do contrato no Remix IDE ([https://remix.ethereum.or
 
 ### Abra o terminal na pasta raiz do projeto e execute o comando abaixo para rodar o backend:
 
-``` npm run dev
+``` 
+npm run dev
 ```
 
 deixe esse terminal executando o back-end e abra um novo terminal
@@ -151,7 +154,8 @@ deixe esse terminal executando o back-end e abra um novo terminal
 
 ### Abra o terminal na pasta raiz do projeto e execute o comando abaixo para rodar o front-end:
 
-``` npm run dev
+``` 
+npm run dev
 ```
 Por questões técnicas, o frontend para teste e experiência está no seguinte link do Vercel: 
 ### Após alguns segundos, o projeto estará rodando em http://localhost:3000/
