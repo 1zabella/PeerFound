@@ -75,7 +75,7 @@ Ferramenta para teste do smart contract.
  
   Wallet utilizada para armazenamento de tokens de autenticação do úsuario.
  
- ### python, python notebook 
+ ### python e notebooks 
  
  Linguagem, ambiente utilizados para tratamento de dados, treinamento e execução da IA.
  
@@ -88,6 +88,7 @@ Ferramenta para teste do smart contract.
 #### Na pasta raiz Backend, execute o comando abaixo para instalar as dependências do projeto:
 
 ``` 
+cd .\backend
 npm i
 ```
 
@@ -96,6 +97,7 @@ npm i
 #### Na pasta raiz Front, execute o comando abaixo para instalar as dependências do projeto:
 
 ``` 
+cd .\frontend
 npm i
 ```
 
