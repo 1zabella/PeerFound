@@ -156,5 +156,43 @@ deixe esse terminal executando o back-end e abra um novo terminal
 Por questões técnicas, o frontend para teste e experiência está no seguinte link do Vercel: 
 ### Após alguns segundos, o projeto estará rodando em http://localhost:3000/
 
+# Modelo preditivo de classificação
+
+Foi desenvolvido um modelo preditivo de classificação em Python que prevê a chance de inadimplência dos tomadores de crédito brasileiros. Foram utilizadas técnicas de aprendizado de máquina e bibliotecas especializadas para a construção e avaliação do modelo. O modelo pode ser utilizado pela solução para avaliar o risco de crédito de potenciais clientes e tomar decisões sobre empréstimos.
+
+## Organização de arquivos
+
+### IA_hackathon_inteli_blockchain_Tratamento_de_dados
+
+Arquivo responsável pelo tratamento realizado nos dados de treinamento do modelo.
+
+### Treino_do_modelo.ipynb
+
+Arquivo responsável pelo treinamento do modelo e geração de arquivo com modelo já treinado.
+
+### modelo_lr.pkl
+
+Arquivo do modelo já treinado é capaz de gerar uma classificação , representando o potencial do usuário de ser um bom pagador. 
+
+### app.py
+
+Arquivo que demonstra uma possível implementação de uma API que permite a conexão entre a IA e o backend.
+
+##Dados utilizados para o treinamento
+
+### Score do Serasa
+
+O score de crédito é uma pontuação que avalia o perfil de crédito de um indivíduo, levando em consideração seu histórico de pagamentos de dívidas, volume de crédito utilizado e outros fatores relevantes. Essa pontuação é uma das informações utilizadas para treinar o modelo preditivo de classificação que avalia a probabilidade de inadimplência de um tomador de crédito.
+
+### Dinheiro guardado em bancos
+
+Representa o montante de recursos financeiros que uma pessoa possui disponível para movimentação em instituições bancárias.
+
+
+## Análise do output
+
+O modelo gera uma classificação no intervalo de [1,4] para um possível cliente da solução. Quanto mais próximo de 4, maiores são as chances do indivíduo realizar o pagamento do crédito tomado.
+
+
 
 <b>Nota: </b> Os arquivos .env foram subidos no github para facilitar a execução do projeto, porém, em um ambiente de produção, esses arquivos não devem ser subidos para o github, pois contém informações sensíveis.
