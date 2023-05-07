@@ -34,7 +34,7 @@ Além de possibilitar essa conexão, a solução também oferece um modelo de cl
 
 ## Vídeo
 
-- <a href="">Vídeo</a>
+- <a href="https://youtu.be/68YA99NYtyo">Vídeo</a>
 <br>
 
 ## Técnologias utilizadas
