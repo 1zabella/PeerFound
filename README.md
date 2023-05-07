@@ -155,6 +155,7 @@ deixe esse terminal executando o back-end e abra um novo terminal
 ### Abra o terminal na pasta raiz do projeto e execute o comando abaixo para rodar o front-end:
 
 ``` 
+cd .\frontend\peerfound
 npm run dev
 ```
 ### Após alguns segundos, o projeto estará rodando em http://localhost:3000/
